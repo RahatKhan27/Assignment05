@@ -1,0 +1,54 @@
+body{
+	
+	background: url(../images/patter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+    
+   
+}
+
+img{
+     width: 300px;
+    opacity: 0.5;
+    max-width: 100%;
+
+}
+
+.left{
+	position: fixed;
+	top:50%;
+	transform: translateY(-50%);
+	
+}
+
+.center{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+.center h1{
+	font-size:80px;
+}
+.center h3{
+	font-size:50px;
+}
+button{
+	width: 150px;
+    height: 55px;
+    font-size: 25px;
+    border: 3px solid #07B39A;
+    background: #198075;
+    margin-right: 20px;
+}
+.body .center button:hover{
+	background: #8FBC8B;
+	color:white;
+}
+iframe{
+	
+}
